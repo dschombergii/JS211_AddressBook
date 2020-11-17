@@ -1,0 +1,60 @@
+body {
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+input {
+	width: 40px;
+}
+
+.userCard {
+	color: black;
+	display: flex;
+	flex-direction: row;
+	border: 5px solid #deb858;
+	width: auto;
+	margin: 10px;
+	background: #86895e;
+}
+
+.cardImage {
+	color: white;
+	background: black;
+}
+
+.cardInfo {
+	display: flex;
+	align-items: center;
+}
+
+.info {
+	color: black;
+	margin: 10px;
+	line-height: 20px;
+}
+
+button {
+	margin: 10px 0;
+	color: white;
+	background: transparent;
+	border: 2px solid #86895e;
+	outline: none;
+}
+
+img {
+	width: 150px;
+	margin: 1em;
+	border-radius: 100px;
+}
+
+.info {
+	display: none;
+}
